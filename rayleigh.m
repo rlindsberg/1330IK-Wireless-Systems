@@ -2,7 +2,7 @@ clear;
 clc;
 N=5000;									%Number of paths
 t=0.0001:10/N:10;						%Time range
-fc=900*10.^6; 							%Carrier frequency
+fc=2.4*10.^9; 							%Carrier frequency 2.4GHZ for BT
 wc=2*pi*fc;
 v=30/3600;								%Receiver speed[km/h]
 c=300*10^3;								%Light speed
